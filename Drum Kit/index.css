@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700;900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* font-family: 'Noto Serif JP', serif;
+font-family: 'PT Serif', serif; */
+body {
+  font-family: "Noto Serif JP", serif;
+  font-weight: 300;
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  font-family: "PT Serif", serif;
+  margin-top: 40px;
+}
+h2 {
+  font-weight: 600;
+}
+.set {
+  margin: 10% auto;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404b69;
+  font-size: 5rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #da0463;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+.w {
+  background-image: url("images/crash.png");
+}
+
+.a {
+  background-image: url("images/kick.png");
+}
+
+.s {
+  background-image: url("images/snare.png");
+}
+
+.d {
+  background-image: url("images/tom1.png");
+}
+
+.j {
+  background-image: url("images/tom2.png");
+}
+
+.k {
+  background-image: url("images/tom3.png");
+}
+
+.l {
+  background-image: url("images/tom4.png");
+}
+.pressed{
+    box-shadow: #1930a2;
+    opacity: 0.5;
+}

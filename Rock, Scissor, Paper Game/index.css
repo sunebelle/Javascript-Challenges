@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700;900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* font-family: 'Noto Serif JP', serif;
+font-family: 'PT Serif', serif; */
+body {
+  font-family: "Noto Serif JP", serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 700;
+  font-family: "PT Serif", serif;
+}
+h2 {
+  font-weight: 600;
+}
+.container-fluid {
+  padding: 3% 10%;
+}
+#challenge img {
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  justify-content: space-around;
+}
+.container-fluid h2 {
+  color: palevioletred;
+}
+.display-winner {
+  display: inline-block;
+  font-size: 40px;
+  color: red;
+}

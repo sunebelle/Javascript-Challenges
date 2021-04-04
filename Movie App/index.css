@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700;900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* font-family: 'Noto Serif JP', serif;
+font-family: 'PT Serif', serif; */
+body{
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 300;
+    /* background-color: #96bb7c; */
+    background-color: #2b2e4a;
+    color: white;
+}
+
+
+h1{
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+    width: 100%;
+}
+h2{
+    font-weight: 600;
+}
+.container{
+    padding: 2% 0;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid black;
+    box-shadow: coral;
+    background-color: #2b2e4a;
+    width: 600px;
+    color: white;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+    padding: 20px 0;
+}
+
+.main{
+    margin-top: 60px;
+    /* background-color: red; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+/* .col-lg-4{
+    width: 100%;
+} */

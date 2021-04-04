@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;600;700;900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+/* font-family: 'Noto Serif JP', serif;
+font-family: 'PT Serif', serif; */
+body{
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: burlywood;
+    color: white ;
+}
+
+
+h1{
+    font-weight: 200;
+    font-size: 2rem;
+    font-family: 'PT Serif', serif;
+    text-align: center;
+}
+
+.main-box{
+    width: 50%;
+    height: 350px;
+    background-color: rgb(34, 2, 63);
+    padding: 40px;
+}
+.pw-header{
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#copy-pw {
+    background-color:#626572;
+    padding: 10px 0;
+    display: inline-block;
+    width: 100%;
+    margin: auto 0;
+}
+.pw-header button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: grey;
+    transform: translate(0,-10px);
+    font-size: 0.8rem;
+    opacity : 0; 
+    transition:opacity 1s ease-out;
+    border: none;
+    background-color: rgb(214, 208, 219);
+
+}
+.pw-header:hover button{
+    opacity : 1; 
+}
+
+.pw-body{
+    margin: 20px 0;
+}
+.form-check-label{
+    padding-left: 15px;
+}
+.form-check{
+    margin: 5px;
+}
+.passwordlength {
+    display: flex;
+    justify-content: space-between;
+}
+/* .pw-footer{
+    display: flex;
+    justify-content: center;
+} */
