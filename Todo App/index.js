@@ -1,6 +1,8 @@
 const addList = document.getElementById("input");
 // const addList = $("#input") - undefined
 
+
+
 function todoList() {
     const value = addList.value;
     $(".input-field").after(`
@@ -31,6 +33,3 @@ function todoList() {
 //     removeList.remove();
 // });
 
-// onclick (img, button), onchange (select, input,textera)  onclick/onchange = myClick()
-//button; type submit => use to submit a form, remember to preventdefault() for (submit a button, but not a form)
-// adEventListener ("submit, change, click, mouseover,select,search,toggle,keypress, input, copy,...")
